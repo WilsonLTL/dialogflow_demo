@@ -4,9 +4,9 @@
 Dialogflow為google所提供的NLP framwork,以最短的時間完成NLP結構 <br >
 
 ### NLP所包括的功能:
-MT - Machine Translation,語言翻譯,Google Translate <br >
-QA - QuestionAnswering,根據句中的intent和entities,並判定User所需 <br >
-IE - Information Extraction <br >
+MT - Machine Translation,語言翻譯,e.g Google Translate <br >
+QA - QuestionAnswering,根據句中的intent和entities,並判定用戶所需 <br >
+IE - Information Extraction,於一連串句子中將重點"定位"<br >
 SA - Sentiment Analysis,分析用戶於對話的情感傾向 <br >
 
 一般chatbot指QA Level所作岀的分析,他們針對用戶的問題作出回應,亦可將他們視為高階Q&A<br >
@@ -14,3 +14,9 @@ SA - Sentiment Analysis,分析用戶於對話的情感傾向 <br >
 
 ### GuideBot VS ChatBot
 個人將目前市面上的聊天機器人分為2類:GuideBot(指導式)和ChatBot(聊天式)<br >
+
+#### GuideBot(指導式)
+GuideBot是一種最為簡單的“聊天機器人”,而事實上他們根本缺乏與人對答的能力,它們只能以step by step的模式來引導用戶表達他們的要求,而develope所要求的的tech level亦不高,一個由零開始的新手（有編程經驗）基本上可以在1星期內基本掌握建構技巧,以我個人經驗,如果有相關經驗（其他lanuage）,3天可以完成e-commerce標準的Phase1建構 (忽視Secure level)
+
+#### ChatBot(聊天式)
+Chatbot所代表的"chat",正正是聊天機器人的精粹所在
