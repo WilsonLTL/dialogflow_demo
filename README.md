@@ -16,7 +16,11 @@ SA - Sentiment Analysis,分析用戶於對話的情感傾向 <br >
 個人將目前市面上的聊天機器人分為2類:GuideBot(指導式)和ChatBot(聊天式)<br >
 
 #### GuideBot(指導式)
-GuideBot是一種最為簡單的“聊天機器人”,而事實上他們根本缺乏與人對答的能力,它們只能以step by step的模式來引導用戶表達他們的要求,而develope所要求的的tech level亦不高,一個由零開始的新手（有編程經驗）基本上可以在1星期內基本掌握建構技巧,以我個人經驗,如果有相關經驗（其他lanuage）,3天可以完成e-commerce標準的Phase1建構 (忽視Secure level)
+GuideBot是一種最為簡單的“聊天機器人”,而事實上他們根本缺乏與人對答的能力,它們只能以step by step的模式來引導用戶表達他們的要求,而develope所要求的的tech level亦不高.<br >
+一個由零開始的新手（有編程經驗）基本上可以在1星期內基本掌握建構技巧,以我個人經驗,如果有相關經驗（其他lanuage),3天可以完成e-commerce的基本建構 
+(忽視Secure level)
 
 #### ChatBot(聊天式)
-Chatbot所代表的"chat",正正是聊天機器人的精粹所在
+Chatbot所代表的"chat",正正是聊天機器人的精粹所在,藉與用戶的正常普通對話,除了分析用戶的要求(intents),亦從句子中得到要求的細節(entities)<br >
+chatbot有別於guidebot的地方在於,chatbot內置模組(module)用以分析用戶意圖,而模組的訓練(training)往往需要大量開發時間和成本<br >
+而訓練一個準確率高的模組,所需要的數據量亦極為龐大
