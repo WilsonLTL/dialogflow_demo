@@ -34,7 +34,7 @@ chatbot有別於guidebot的地方在於,chatbot內置模組(module)用以分析�
  ![image03](http://www.drcare.ai/images/news5.jpg)
  
 ### Dialogflow (api.ai)介紹
-而我個人認為,Dialogflow為眾多Framework之中,其中一個非常適合入門,並且擁有大量功能的工具功能,有效協助使用者釐清分詞,語意,並了解NLP Chatbot的基本運行羅輯,有助日後對建構模組(例如使用Tensorflow,PyTorch)有更深入的了解<br >
+而我個人認為,Dialogflow為眾多Framework之中,其中一個非常適合入門,並且擁有大量功能的功能,有效協助使用者釐清分詞,語意,並了解NLP Chatbot的基本運行羅輯,有助日後對建構模組(例如使用Tensorflow,PyTorch)有更深入的了解<br >
 而在使用之前,我們必須對結構有基本的了解,而其中最為重要的分別為"Intents"與"Entites"<br >
 
 #### Intents(意圖)
