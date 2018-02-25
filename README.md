@@ -30,4 +30,5 @@ chatbot有別於guidebot的地方在於,chatbot內置模組(module)用以分析�
 
 但當然,自己建構模組只不過是開發Chatbot的其中一個途徑,事實上坊間亦有很多提供使用的工具(framwork),例如Microsoft Luis,Google Dialogflow(api.ai),他們大部分基於英文作為主要語言,因此於繁簡中文(包括粵語)的表現並不太理想,但事實上如果用戶需求並不太針對性的話(例如大量生僻字,行內專業術語),不妨使用由他們所提供的工具,以減少開發成本與時間.
 
+#### e.g Asiabot Dr.care<br>
  ![image03](http://www.drcare.ai/images/news5.jpg)
