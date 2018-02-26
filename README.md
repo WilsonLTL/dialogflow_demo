@@ -1,12 +1,12 @@
 # dialogflow_demo
 ![image01](https://blog.dialogflow.com/images/dialogflow-logo.png)<br >
 本篇為Dialogflow (前稱:api.ai)快速入門<br >
-Dialogflow為google所提供的NLP framwork,以最短的時間完成NLP結構 <br >
+Dialogflow為google所提供的end-to-end platform,以最短的時間完成NLP結構 <br >
 
 ### NLP所包括的功能:
 MT - Machine Translation,語言翻譯,e.g Google Translate <br >
 QA - QuestionAnswering,根據句中的intent和entities,並判定用戶所需 <br >
-IE - Information Extraction,於一連串句子中將重點"定位"<br >
+IE - Information Extraction,於一連串句子中將重點"定位"<br > 
 SA - Sentiment Analysis,分析用戶於對話的情感傾向 <br >
 
 一般chatbot指QA Level所作岀的分析,他們針對用戶的問題作出回應,亦可將他們視為高階Q&A<br >
@@ -28,7 +28,7 @@ chatbot有別於guidebot的地方在於,chatbot內置模組(module)用以分析�
 
 訓練一個準確率高的模組,所需要的數據量亦極為龐大,非一般中小企業能輕易負擔,大部分的公司都會選擇使用 網頁收集數據->訓練模組->建構NLP模組 的流程,例如淘寶,Amazon,他們天生擁有大量數據以供參考與訓練,意味著他們能節省大量的時間並非常有效地提高模組的識別率,因此除非該公司的技術背景非常雄厚,絕少公司願意投資大量成本建構屬於自己的模組,但由自己所訓練出來的模組,甚至可以與人進行"Chit Chat".<br >
 
-但當然,自己建構模組只不過是開發Chatbot的其中一個途徑,事實上坊間亦有很多提供使用的工具(framwork),例如Microsoft Luis,Google Dialogflow(api.ai),他們大部分基於英文作為主要語言,因此於繁簡中文(包括粵語)的表現並不太理想,但事實上如果用戶需求並不太針對性的話(例如大量生僻字,行內專業術語),不妨使用由他們所提供的工具,以減少開發成本與時間.
+但當然,自己建構模組只不過是開發Chatbot的其中一個途徑,事實上坊間亦有很多提供使用的工具(framwork/tool/platform),例如Microsoft Luis,Google Dialogflow(api.ai),他們大部分基於英文作為主要語言,因此於繁簡中文(包括粵語)的表現並不太理想,但事實上如果用戶需求並不太針對性的話(例如大量生僻字,行內專業術語),不妨使用由他們所提供的工具,以減少開發成本與時間.
 
 #### e.g Asiabot Dr.care<br>
  ![image03](http://www.drcare.ai/images/news5.jpg)
@@ -38,4 +38,4 @@ chatbot有別於guidebot的地方在於,chatbot內置模組(module)用以分析�
 而在使用之前,我們必須對結構有基本的了解,而其中最為重要的分別為"Intents"與"Entites"<br >
 
 #### Intents(意圖)
-
+Intents
