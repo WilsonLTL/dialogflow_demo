@@ -38,4 +38,7 @@ chatbot有別於guidebot的地方在於,chatbot內置模組(module)用以分析�
 而在使用之前,我們必須對結構有基本的了解,而其中最為重要的分別為"Intents"與"Entites"<br >
 
 #### Intents(意圖)
-Intents
+Intents如其字面解釋,"意圖"指透過分析用戶的訊息並得出他們的意圖.<br >
+
+#### Entities(實體)
+Entites即比較抽象,"實體"類似句子中的的關鍵詞(Keywords)
